@@ -19,6 +19,6 @@
 ---
 include:
   - board: nrfmicro_13
-    shield: rae_dux_left
+    shield: cradio_left
   - board: nrfmicro_13
-    shield: rae_dux_right
+    shield: cradio_right
