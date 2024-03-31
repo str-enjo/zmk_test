@@ -1,0 +1,19 @@
+# Copyright (c) 2021 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_PORCUPINE_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Porcupine"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_PORCUPINE_LEFT || SHIELD_PORCUPINE_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

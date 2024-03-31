@@ -1,0 +1,11 @@
+file_format: "1"
+id: porcupine
+name: Porcupine
+type: shield
+url: https://github.com/anarion80/porcupine
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - porcupine_left
+  - porcupine_right
