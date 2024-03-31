@@ -18,7 +18,7 @@
 #
 ---
 include:
-  - board: nice_nano_v2
+  - board: nrfmicro_13_52833
     shield: porcupine_left
-  - board: nice_nano_v2
+  - board: nrfmicro_13_52833
     shield: porcupine_right
